@@ -32,6 +32,14 @@ ul {
     font-weight: bold;
 }
 
+.txt-s {
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 /* Header */
 
 
@@ -62,9 +70,6 @@ main {
     padding-top: 80px;
 }
 
-/* main img {
-    height: 70%;
-} */
 
 .row {
     width: 100%;
@@ -75,12 +80,10 @@ main {
 
 .col {
     flex-basis: calc((100% / 3) - (30px / 3));
-    /* border: 2px dashed black; */
 }
 
 .card {
     width: 100%;
-    border: 2px dashed green;
     max-height: 700px;
     position: relative;
     top: 0;
@@ -91,12 +94,11 @@ main {
     max-width: 100%;
     max-height: 100%;
     display: block;
-
 }
 
 /* bottom badges */
 
-span {
+.badge span {
     padding: 5px 10px;
 }
 
@@ -125,4 +127,19 @@ span {
     top: 10px;
     right: 0;
     font-size: 25px;
+}
+
+/* Card Footer */
+
+.card-footer {
+    margin-top: 5px;
+}
+
+
+.new-price {
+    color: #FF6900;
+}
+
+.orig-price {
+    text-decoration: line-through;
 }
