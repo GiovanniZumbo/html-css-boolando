@@ -27,15 +27,19 @@ ul {
     list-style-type: none;
 }
 
+.bold-white {
+    color: white;
+    font-weight: bold;
+}
+
 /* Header */
 
 
 header {
     width: 100%;
     background-color: #FF6900;
-    color: white;
     padding: 20px 0;
-    font-weight: bold;
+    color: white;
 }
 
 #logo {
@@ -74,12 +78,51 @@ main {
     /* border: 2px dashed black; */
 }
 
-.col img {
-    height: 100%;
+.card {
     width: 100%;
+    border: 2px dashed green;
+    max-height: 700px;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
-.card {
-    border: 2px dashed green;
-    height: 600px;
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+
+}
+
+/* bottom badges */
+
+span {
+    padding: 5px 10px;
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
+
+.discount {
+    background-color: #FF0000;
+    font-size: 14px;
+}
+
+.sust {
+    background-color: #008000;
+    font-size: 14px;
+}
+
+/* top badge */
+
+.favourite {
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 25px;
 }
