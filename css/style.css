@@ -23,6 +23,31 @@ body {
     display: flex;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Header */
 
-header {}
+
+header {
+    width: 100%;
+    background-color: #FF6900;
+    color: white;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+#logo {
+    height: 12%;
+    width: 12%;
+}
+
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar * {
+    padding: 0 3px;
+}
