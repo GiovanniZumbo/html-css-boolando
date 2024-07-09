@@ -15,7 +15,7 @@ body {
 /* Utilities */
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -39,8 +39,8 @@ header {
 }
 
 #logo {
-    height: 12%;
-    width: 12%;
+    height: 1%;
+    width: 10%;
 }
 
 .nav-bar {
@@ -49,5 +49,37 @@ header {
 }
 
 .nav-bar * {
-    padding: 0 3px;
+    padding-right: 5px;
+}
+
+/* main */
+
+main {
+    padding-top: 80px;
+}
+
+/* main img {
+    height: 70%;
+} */
+
+.row {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.col {
+    flex-basis: calc((100% / 3) - (30px / 3));
+    /* border: 2px dashed black; */
+}
+
+.col img {
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    border: 2px dashed green;
+    height: 600px;
 }
