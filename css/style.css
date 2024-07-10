@@ -44,15 +44,26 @@ ul {
 
 
 header {
-    width: 100%;
     background-color: #FF6900;
     padding: 20px 0;
     color: white;
+    box-shadow: 0 1px 3px #666;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 70px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 #logo {
-    height: 1%;
-    width: 10%;
+    height: 30px;
+    margin: 0 auto;
 }
 
 .nav-bar {
@@ -105,37 +116,34 @@ main {
     display: none;
 }
 
-.first-img:hover+.second-img {
+.card:hover .second-img {
     display: inline-block;
 }
 
 
 .card img {
     max-width: 100%;
-    max-height: 100%;
 }
 
 /* bottom badges */
 
 .badge span {
     padding: 5px 10px;
+    font-size: 14px;
 }
 
 .badge {
     position: absolute;
     left: 0;
     bottom: 40px;
-    z-index: 3;
 }
 
 .discount {
     background-color: #FF0000;
-    font-size: 14px;
 }
 
 .sust {
     background-color: #008000;
-    font-size: 14px;
 }
 
 /* top badge */
@@ -147,7 +155,7 @@ main {
     top: 10px;
     right: 0;
     font-size: 25px;
-    z-index: 3;
+    z-index: 2;
 }
 
 .favourite:hover {
